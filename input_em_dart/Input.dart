@@ -4,11 +4,11 @@
  * for maior ou igual a 18 ele é maior de idade; Se não for ele não
  * é maior de idade
 */
-import 'dart:io'
+import 'dart:io';
 
 main(){
 
-  var idade = 24;
+  var idade = int.parse(stdin.readLineSync());
 
 
 
