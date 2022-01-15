@@ -8,7 +8,7 @@ import 'dart:io';
 
 main(){
 
-  print("Informe uma idade válida: ");
+  print("Informe uma idade: ");
   var input = stdin.readLineSync();
   var idade = int.parse(input);
 
