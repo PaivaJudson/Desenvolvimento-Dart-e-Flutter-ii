@@ -1,0 +1,7 @@
+
+
+A entrada do nullable inviabiliza muita coisa no
+código. É necessário continuar a explorar a questão
+para se puder trabalhar sem erros... 
+
+

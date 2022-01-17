@@ -9,8 +9,9 @@ import 'dart:io';
 main(){
 
   print("Informe uma idade: ");
-  var input = stdin.readLineSync();
-  var idade = int.parse(input);
+  String? input = stdin.readLineSync();
+  print("O que foi recebido = $input");
+  int late idade = int.parse(input);
 
   if(idade >= 18){
     print("Maior de idade");
