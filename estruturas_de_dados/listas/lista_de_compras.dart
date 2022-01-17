@@ -1,11 +1,13 @@
 import "dart:io";
 
+// depois se pode modularizar todas as funcionalidades... 
+
+List<String> listaProdutos = [];
 
 main(){
 
-  List<String> listaProdutos = [];
   bool executar = true;
-
+  
   while(executar){
     
     print("==== Adicione um produto ====");
@@ -16,6 +18,9 @@ main(){
         executar = false;
       }else if(texto == "imprimir"){
         print(listaProdutos);
+      }else if(texto == "remover"){
+        // pede-se o indice do elemento...
+        // listaProdutos.remove(indice);
       }else{
         listaProdutos.add(texto);
         print("\x1B[2J\x1B[0;0H");
